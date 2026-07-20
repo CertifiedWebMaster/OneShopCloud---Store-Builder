@@ -1,54 +1,232 @@
-[![Bolt.new: AI-Powered Full-Stack Web Development in the Browser](./public/social_preview_index.jpg)](https://bolt.new)
+# OneShopCloud
+### AI-Powered Full-Stack Development in Your Browser
 
-# Bolt.new: AI-Powered Full-Stack Web Development in the Browser
+Welcome to **OneShopCloud**, the next-generation AI-powered development platform that enables you to build, edit, run, and deploy complete full-stack applications directly from your browser. No local setup, complicated configuration, or development environment is required.
 
-Bolt.new is an AI-powered web development agent that allows you to prompt, run, edit, and deploy full-stack applications directly from your browser—no local setup required. If you're here to build your own AI-powered web dev agent using the Bolt open source codebase, [click here to get started!](./CONTRIBUTING.md)
+OneShopCloud combines powerful AI with a browser-based development workspace, allowing developers, businesses, and entrepreneurs to build production-ready software faster than ever before.
 
-## What Makes Bolt.new Different
+---
 
-Claude, v0, etc are incredible- but you can't install packages, run backends or edit code. That’s where Bolt.new stands out:
+## Features
 
-- **Full-Stack in the Browser**: Bolt.new integrates cutting-edge AI models with an in-browser development environment powered by **StackBlitz’s WebContainers**. This allows you to:
-  - Install and run npm tools and libraries (like Vite, Next.js, and more)
-  - Run Node.js servers
-  - Interact with third-party APIs
-  - Deploy to production from chat
-  - Share your work via a URL
+### 🤖 AI Development Assistant
+- Generate complete applications from natural language.
+- Modify existing projects using conversational prompts.
+- Refactor, optimize, and debug code automatically.
+- Generate documentation and project structure.
 
-- **AI with Environment Control**: Unlike traditional dev environments where the AI can only assist in code generation, Bolt.new gives AI models **complete control** over the entire  environment including the filesystem, node server, package manager, terminal, and browser console. This empowers AI agents to handle the entire app lifecycle—from creation to deployment.
+### 💻 Full-Stack Development
+- Frontend and backend development in one workspace.
+- Install and manage npm packages.
+- Run development servers directly in the browser.
+- Build React, Next.js, Vue, Angular, Svelte, Astro, Express, Node.js, and many other frameworks.
 
-Whether you’re an experienced developer, a PM or designer, Bolt.new allows you to build production-grade full-stack applications with ease.
+### 🚀 Instant Preview
+- Live application preview.
+- Automatic hot reload.
+- Real-time code updates.
+- Browser-based debugging.
 
-For developers interested in building their own AI-powered development tools with WebContainers, check out the open-source Bolt codebase in this repo!
+### 📦 Deployment
+- Deploy applications directly from the platform.
+- Production-ready builds.
+- Environment variable management.
+- Custom domain support.
+- One-click publishing.
 
-## Tips and Tricks
+### 🔧 Built-In Development Tools
+- Terminal
+- File Explorer
+- Code Editor
+- Package Manager
+- Git Integration
+- AI Code Review
+- Error Detection
+- Dependency Management
 
-Here are some tips to get the most out of Bolt.new:
+---
 
-- **Be specific about your stack**: If you want to use specific frameworks or libraries (like Astro, Tailwind, ShadCN, or any other popular JavaScript framework), mention them in your initial prompt to ensure Bolt scaffolds the project accordingly.
+# Why OneShopCloud?
 
-- **Use the enhance prompt icon**: Before sending your prompt, try clicking the 'enhance' icon to have the AI model help you refine your prompt, then edit the results before submitting.
+Unlike traditional AI coding assistants, OneShopCloud provides a complete cloud development environment where you can:
 
-- **Scaffold the basics first, then add features**: Make sure the basic structure of your application is in place before diving into more advanced functionality. This helps Bolt understand the foundation of your project and ensure everything is wired up right before building out more advanced functionality.
+- Build full-stack applications
+- Execute backend services
+- Install dependencies
+- Edit entire codebases
+- Preview applications instantly
+- Deploy without leaving your browser
 
-- **Batch simple instructions**: Save time by combining simple instructions into one message. For example, you can ask Bolt to change the color scheme, add mobile responsiveness, and restart the dev server, all in one go saving you time and reducing API credit consumption significantly.
+Everything happens in one seamless workspace.
 
-## FAQs
+---
 
-**Where do I sign up for a paid plan?**  
-Bolt.new is free to get started. If you need more AI tokens or want private projects, you can purchase a paid subscription in your [Bolt.new](https://bolt.new) settings, in the lower-left hand corner of the application. 
+# Supported Technologies
 
-**What happens if I hit the free usage limit?**  
-Once your free daily token limit is reached, AI interactions are paused until the next day or until you upgrade your plan.
+## Frontend
 
-**Is Bolt in beta?**  
-Yes, Bolt.new is in beta, and we are actively improving it based on feedback.
+- React
+- Next.js
+- Vue
+- Angular
+- Svelte
+- Astro
+- Tailwind CSS
+- Bootstrap
+- HTML5
+- CSS3
+- JavaScript
+- TypeScript
 
-**How can I report Bolt.new issues?**  
-Check out the [Issues section](https://github.com/stackblitz/bolt.new/issues) to report an issue or request a new feature. Please use the search feature to check if someone else has already submitted the same issue/request.
+## Backend
 
-**What frameworks/libraries currently work on Bolt?**  
-Bolt.new supports most popular JavaScript frameworks and libraries. If it runs on StackBlitz, it will run on Bolt.new as well.
+- Node.js
+- Express
+- Fastify
+- NestJS
+- Python
+- PHP
+- Go
 
-**How can I add make sure my framework/project works well in bolt?**  
-We are excited to work with the JavaScript ecosystem to improve functionality in Bolt. Reach out to us via [hello@stackblitz.com](mailto:hello@stackblitz.com) to discuss how we can partner!
+## Databases
+
+- PostgreSQL
+- MySQL
+- MariaDB
+- MongoDB
+- SQLite
+- Firebase
+- Supabase
+
+## Cloud Services
+
+- Docker
+- Kubernetes
+- Vercel
+- Netlify
+- Cloudflare
+- AWS
+- Google Cloud
+- Azure
+
+---
+
+# AI Capabilities
+
+OneShopCloud can help you:
+
+- Build complete applications from a prompt
+- Generate APIs
+- Create authentication systems
+- Design databases
+- Generate dashboards
+- Build CRM platforms
+- Create eCommerce stores
+- Build SaaS products
+- Write documentation
+- Debug applications
+- Optimize performance
+- Refactor code
+- Generate tests
+
+---
+
+# Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/OneShopCloud/OneShopCloud.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and begin building.
+
+---
+
+# Project Structure
+
+```
+src/
+public/
+components/
+pages/
+server/
+api/
+hooks/
+styles/
+utils/
+config/
+assets/
+```
+
+---
+
+# Roadmap
+
+- AI Multi-Agent Development
+- Voice Coding
+- Visual Application Builder
+- Mobile App Generation
+- Desktop App Generation
+- AI Workflow Automation
+- Integrated CI/CD
+- One-Click Cloud Deployment
+- Team Collaboration
+- Marketplace
+- Plugin Ecosystem
+- Custom AI Models
+- Enterprise Management Console
+
+---
+
+# Security
+
+OneShopCloud is designed with security in mind.
+
+- Secure authentication
+- Role-based access control
+- Environment variable protection
+- Dependency scanning
+- Secure deployment pipeline
+- Encrypted project storage
+
+---
+
+# Contributing
+
+We welcome contributions from developers around the world.
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Submit a Pull Request.
+
+Please review the project's contribution guidelines before submitting changes.
+
+---
+
+# License
+
+This project is licensed under the applicable open-source license included with this repository.
+
+---
+
+# Community
+
+Join the OneShopCloud community to:
+
+- Share projects
+- Report bugs
+- Request
